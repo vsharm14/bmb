@@ -35,5 +35,18 @@
     "popups": "^1.1.3",
     "serve-favicon": "~2.4.2",
     "swig": "^1.4.2"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsharm14/bmb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsharm14/bmb/issues"
+  },
+  "homepage": "https://github.com/vsharm14/bmb#readme",
+  "description": ""
 }
