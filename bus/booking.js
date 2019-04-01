@@ -102,7 +102,7 @@ router.post('/doBooking', (req, res) => {
             subject: 'Booking Done Successfully',
             html: `<b>Hello User PFB the booking details: <br>
             <strong>Route:${req.body.route}</strong> <br>
-            <strong>Booking Date:${req.body.bdate}</strong> <br> 
+            <strong>Booking Date:${req.body.bdate}</strong> <br>
             <strong>Total Seats Booked:${req.body.seats}</strong></b></p>`
           };
 
