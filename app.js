@@ -2,7 +2,7 @@ var express = require('express');
 path = require('path');
 var http = require('http');
 var cors = require('cors')
-var swig = require('swig');
+// var swig = require('swig');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
@@ -19,9 +19,9 @@ var app =  express();
 var passport = require('passport');
 var session = require('express-session');
 
-var swig = new swig.Swig();
-app.engine('html', swig.renderFile);
-app.set('view engine', 'html');
+// var swig = new swig.Swig();
+// app.engine('html', swig.renderFile);
+// app.set('view engine', 'html');
 
 // app.set('views', __dirname + '/views');
 // app.set('view engine', 'jade');
